@@ -1,0 +1,19 @@
+{
+  "edition": "chromebook",
+  "version": "1.2.0",
+  "platform": "linux",
+  "architecture": "amd64",
+  "releaseDate": "2026-10-12",
+  "releaseNotes": [
+    "Software Update Manager with cryptographic SHA-256 verification and assisted Debian installation",
+    "Resolved React Error #300 lifecycle crash caused by conditional hook invocations in ONE Hub",
+    "Enhanced error boundary diagnostics with technical stack inspectability",
+    "Independent edition versioning: ONE OS Chromebook Edition 1.2.0 and Mac Edition 1.3",
+    "Optimized memory and hardware acceleration profile for HP Chromebook x360 Crostini container",
+    "Preserved local user settings, workspaces, wallpapers, and application data across upgrades"
+  ],
+  "downloadUrl": "https://github.com/jacksaville25/one-os-releases/releases/download/v1.2.0-chromebook/ONE-OS-Chromebook-1.2.0-amd64.deb",
+  "fileSize": 102981956,
+  "sha256": "3b6525c712c326d9adf5a3627ddf58b9939404e7a275e7c98149f40f006139f6",
+  "minOsVersion": "Debian 12 Bookworm"
+}
