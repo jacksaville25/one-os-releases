@@ -1,19 +1,19 @@
 {
   "edition": "chromebook",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "platform": "linux",
   "architecture": "amd64",
-  "releaseDate": "2026-10-12",
+  "releaseDate": "2026-10-20",
   "releaseNotes": [
-    "Software Update Manager with cryptographic SHA-256 verification and assisted Debian installation",
-    "Resolved React Error #300 lifecycle crash caused by conditional hook invocations in ONE Hub",
-    "Enhanced error boundary diagnostics with technical stack inspectability",
-    "Independent edition versioning: ONE OS Chromebook Edition 1.2.0 and Mac Edition 1.3",
-    "Optimized memory and hardware acceleration profile for HP Chromebook x360 Crostini container",
-    "Preserved local user settings, workspaces, wallpapers, and application data across upgrades"
+    "Complete native offline productivity apps: Tasks (Kanban), Calendar, School (Timetable & GPA), Notes 2.0 (Markdown), Habits & Goals, Money, and Projects",
+    "Integrated Orvexa AI Desktop Copilot powered by Google Gemini with isolated key security",
+    "Interactive desktop widgets: Live Clock & Weather, Pomodoro Focus Timer, Today Priority Tasks, and System Monitor",
+    "Upgraded Dexie v2 IndexedDB schema with persistent local storage",
+    "Optimized CPU and RAM consumption for HP Chromebook x360 ChromeOS Crostini environment",
+    "Preserved user settings, wallpapers, files, and desktop layouts across upgrades"
   ],
-  "downloadUrl": "https://github.com/jacksaville25/one-os-releases/releases/download/v1.2.0-chromebook/ONE-OS-Chromebook-1.2.0-amd64.deb",
-  "fileSize": 102981956,
-  "sha256": "3b6525c712c326d9adf5a3627ddf58b9939404e7a275e7c98149f40f006139f6",
+  "downloadUrl": "https://github.com/jacksaville25/one-os-releases/releases/download/v1.3.0-chromebook/ONE-OS-Chromebook-1.3.0-amd64.deb",
+  "fileSize": 103060976,
+  "sha256": "71c2922ddbf8b3e182bdc26f59ce8b02ec19a5b0f17e1b7400e65a7509f76ff6",
   "minOsVersion": "Debian 12 Bookworm"
 }
