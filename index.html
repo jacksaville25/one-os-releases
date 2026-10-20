@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONE OS Official Release Portal</title>
+  <style>
+    :root {
+      --bg: #0f1117;
+      --card-bg: rgba(26, 29, 41, 0.75);
+      --border: rgba(255, 255, 255, 0.1);
+      --accent: #3b82f6;
+      --accent-glow: rgba(59, 130, 246, 0.35);
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(circle at 50% 0%, #1e293b 0%, var(--bg) 75%);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+    .container {
+      width: 100%;
+      max-width: 720px;
+      background: var(--card-bg);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2.5rem;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px var(--accent-glow);
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      background: rgba(59, 130, 246, 0.15);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.3);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+    h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    p.subtitle { color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem; }
+    .card-grid { display: grid; gap: 1.2rem; }
+    .release-card {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+    }
+    .release-card h2 { font-size: 1.25rem; font-weight: 600; }
+    .meta-row { display: flex; flex-wrap: wrap; gap: 1rem; font-size: 0.9rem; color: var(--text-muted); }
+    .checksum-box {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 0.6rem 0.8rem;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 0.8rem;
+      word-break: break-all;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .links { display: flex; gap: 1rem; margin-top: 0.5rem; }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+    a.btn-primary { background: var(--accent); color: white; }
+    a.btn-primary:hover { background: #2563eb; transform: translateY(-1px); }
+    a.btn-secondary { background: rgba(255, 255, 255, 0.08); color: var(--text); border: 1px solid var(--border); }
+    a.btn-secondary:hover { background: rgba(255, 255, 255, 0.15); }
+    footer { margin-top: 2rem; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Official Distribution Portal</div>
+    <h1>ONE OS Releases</h1>
+    <p class="subtitle">Secure, authenticated update manifests and distribution packages.</p>
+
+    <div class="card-grid">
+      <div class="release-card">
+        <h2>ONE OS Chromebook Edition 1.5.0</h2>
+        <div class="meta-row">
+          <span>Platform: Linux AMD64 (Debian 12)</span>
+          <span>Size: 127.70 MB</span>
+          <span>Released: 2026-10-19</span>
+        </div>
+        <div class="checksum-box">SHA-256: 73be8967ba7f2e755c69ca27e3fc626776d3dad9acff509d926933e211936cb0</div>
+        <div class="links">
+          <a class="btn btn-secondary" href="chromebook-manifest.json" target="_blank">View JSON Manifest</a>
+          <a class="btn btn-primary" href="https://github.com/jacksaville25/one-os-releases/releases/download/v1.5.0-mac/ONE-OS-Mac-1.5.0-arm64.dmg">Download .deb Installer</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Configured for <strong>https://github.com/jacksaville25/one-os-releases</strong></p>
+      <p>Automated SHA-256 Verification &bull; Assisted Crostini Installation</p>
+    </footer>
+  </div>
+</body>
+</html>

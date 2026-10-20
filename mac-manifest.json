@@ -1,0 +1,16 @@
+{
+  "edition": "mac",
+  "version": "1.5.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "releaseDate": "2026-10-19",
+  "releaseNotes": [
+    "ONE OS Mac Edition stability release",
+    "Full macOS Apple Silicon native optimization",
+    "Independent release track"
+  ],
+  "downloadUrl": "https://github.com/jacksaville25/one-os-releases/releases/download/v1.5.0-mac/ONE-OS-Mac-1.5.0-arm64.dmg",
+  "fileSize": 133897928,
+  "sha256": "73be8967ba7f2e755c69ca27e3fc626776d3dad9acff509d926933e211936cb0",
+  "minOsVersion": "macOS 13+ Ventura"
+}
